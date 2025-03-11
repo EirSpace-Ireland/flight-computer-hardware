@@ -1,4 +1,4 @@
-24739089230942266
+24742572790777385
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57456,12 +57456,26 @@ emi filter
 5
 5
 FlightComputerV1_footprints
+BMP280
+
+
+0
+6
+6
+FlightComputerV1_footprints
 GYU521-MPU6050
 
 
 0
 8
 8
+FlightComputerV1_footprints
+Micro_SD_Card_holder
+
+
+0
+6
+6
 FlightComputerV1_footprints
 W25Q64
 
