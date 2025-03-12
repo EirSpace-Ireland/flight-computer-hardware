@@ -2700,7 +2700,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FlightComputerV1_footprints:Micro_SD_Card_holder"
 			(at 90.17 102.87 0)
 			(effects
 				(font
@@ -3164,7 +3164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FlightComputerV1_footprints:GYU521-MPU6050"
 			(at 74.93 81.28 0)
 			(effects
 				(font
