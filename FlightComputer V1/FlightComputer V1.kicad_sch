@@ -39,6 +39,26 @@
 				(justify left top)
 			)
 		)
+		(pin "cont_out" output
+			(at 165.1 78.74 180)
+			(uuid "21e11720-c75c-4ef6-b6c2-6057adeb7291")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "pyro_in" input
+			(at 165.1 85.09 180)
+			(uuid "1f8ad675-f603-410b-bd95-afa2df7c4710")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "FlightComputer V1"
 				(path "/9c0e1766-b875-44c2-9c31-cf47efaf79e2"
