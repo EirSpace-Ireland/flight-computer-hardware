@@ -611,6 +611,14 @@
     [
       "9c0e1766-b875-44c2-9c31-cf47efaf79e2",
       "Root"
+    ],
+    [
+      "e7e9f843-7956-44bc-ae6e-3a3064d985ee",
+      "Chips"
+    ],
+    [
+      "e268bfa1-0de3-4470-8d3f-bd9471523088",
+      "Pyro"
     ]
   ],
   "text_variables": {}

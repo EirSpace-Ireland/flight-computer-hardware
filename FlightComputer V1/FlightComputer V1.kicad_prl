@@ -32,6 +32,7 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
+      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -52,9 +53,9 @@
     "zone_display_mode": 0
   },
   "git": {
-    "repo_type": "",
+    "repo_type": "https",
     "repo_username": "",
-    "ssh_key": ""
+    "ssh_key": "C:\\Users\\nozol\\.ssh\\id_rsa"
   },
   "meta": {
     "filename": "FlightComputer V1.kicad_prl",
