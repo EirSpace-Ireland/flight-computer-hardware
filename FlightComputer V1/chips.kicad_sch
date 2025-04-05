@@ -2705,7 +2705,7 @@
 		)
 		(uuid "f27970a8-b6e0-464e-9a47-05e1e6b84715")
 	)
-	(global_label "Power"
+	(global_label "VCC"
 		(shape input)
 		(at 179.07 152.4 90)
 		(fields_autoplaced yes)
@@ -2717,7 +2717,7 @@
 		)
 		(uuid "10b3a5b1-7b79-4e96-97b7-92d684ab2cfd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 143.7905 90)
+			(at 179.07 145.7862 90)
 			(effects
 				(font
 					(size 1.27 1.27)

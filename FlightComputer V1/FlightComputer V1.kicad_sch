@@ -39,6 +39,26 @@
 				(justify left top)
 			)
 		)
+		(pin "VCC" output
+			(at 135.89 120.65 0)
+			(uuid "f1f0cbea-1df2-4a49-8bc1-157c58fd5133")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RUN" output
+			(at 135.89 127 0)
+			(uuid "35419df1-15c6-44bc-834b-57f9bd921f83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "FlightComputer V1"
 				(path "/9c0e1766-b875-44c2-9c31-cf47efaf79e2"
