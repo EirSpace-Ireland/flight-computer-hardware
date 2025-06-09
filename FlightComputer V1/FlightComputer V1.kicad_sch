@@ -6,6 +6,77 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 186.69 77.47)
+		(size 17.78 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "886d4eec-45b9-4662-9d8e-ac945af2ed31")
+		(property "Sheetname" "Pyro1"
+			(at 186.69 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pyro.kicad_sch"
+			(at 186.69 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "ch_id" "1"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PYRO_CONT_${ch_id}" output
+			(at 186.69 82.55 180)
+			(uuid "19bd03ab-3e51-404b-b8fa-90a22452b5ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PYRO_IO_${ch_id}" input
+			(at 186.69 86.36 180)
+			(uuid "bd1fb09f-11e8-4470-bf26-87239f715568")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FlightComputer V1"
+				(path "/9c0e1766-b875-44c2-9c31-cf47efaf79e2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 88.9 115.57)
 		(size 46.99 29.21)
 		(exclude_from_sim no)
@@ -48,8 +119,8 @@
 		)
 	)
 	(sheet
-		(at 165.1 69.85)
-		(size 43.18 31.75)
+		(at 165.1 77.47)
+		(size 17.78 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -63,8 +134,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e268bfa1-0de3-4470-8d3f-bd9471523088")
-		(property "Sheetname" "Pyro"
-			(at 165.1 69.1384 0)
+		(property "Sheetname" "Pyro0"
+			(at 165.1 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +144,7 @@
 			)
 		)
 		(property "Sheetfile" "pyro.kicad_sch"
-			(at 165.1 102.1846 0)
+			(at 165.1 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,9 +152,18 @@
 				(justify left top)
 			)
 		)
-		(pin "cont_out" output
-			(at 165.1 78.74 180)
-			(uuid "21e11720-c75c-4ef6-b6c2-6057adeb7291")
+		(property "ch_id" "0"
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PYRO_CONT_${ch_id}" output
+			(at 165.1 82.55 180)
+			(uuid "6da671c0-12bd-4507-bf1a-e42b2beab249")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,9 +171,9 @@
 				(justify left)
 			)
 		)
-		(pin "pyro_in" input
-			(at 165.1 85.09 180)
-			(uuid "1f8ad675-f603-410b-bd95-afa2df7c4710")
+		(pin "PYRO_IO_${ch_id}" input
+			(at 165.1 86.36 180)
+			(uuid "d7f69454-55f0-49a3-b645-e396d14acac8")
 			(effects
 				(font
 					(size 1.27 1.27)
